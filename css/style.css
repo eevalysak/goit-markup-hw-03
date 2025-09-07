@@ -1,6 +1,4 @@
- /*font-family: "Raleway", sans-serif;
-font-family: "Roboto Condensed", sans-serif;
-{}*/ 
+ 
 body {
     font-family: "Roboto", sans-serif;
     color: #434455;
@@ -8,10 +6,24 @@ body {
     
 }
 
-ul {
-    list-style-type: none;
+
+img {
+    display: block;
 }
 
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding-left: 0;
+}
+
+p {
+    margin: 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+}
 a {
     text-decoration: none;
 }
@@ -25,6 +37,10 @@ a {
       text-transform: uppercase;
       color: #4d5ae5;
 
+}
+
+header {
+    padding-
 }
 
 span {
@@ -245,3 +261,4 @@ footer {
     color: #F4F4FD;
     letter-spacing: 0.02em;
 }
+
