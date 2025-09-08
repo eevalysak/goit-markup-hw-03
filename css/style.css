@@ -158,10 +158,9 @@ line-height: 1.07;
 letter-spacing: 0.02em;
 text-align: center;
 color: #FFFFFF;
-
-
-
 }
+
+
 
 .hero-title {
    
@@ -255,6 +254,12 @@ border-radius: 0px 0px 4px 4px;
 
 }
 
+.mark,
+.tom,
+.camila,
+.daniel {
+    padding: 32px 0;
+}
 
 .team-link {
     display: flex;
@@ -315,7 +320,7 @@ border-radius: 0px 0px 4px 4px;
 
 /*PORTFOLIO SECTION*/
 
-.Portfolio {
+.Portfolio-sec {
     background-color: #FFFFFF;
     padding-top: 120px;
     padding-bottom: 120px;
@@ -329,7 +334,7 @@ row-gap: 48px;
 }
 
 .portfolio-item {
-    width: calc((100% – 48px)/3);
+    width: calc((100% – 48px) / 3); 
    
 }
 
