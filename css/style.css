@@ -59,12 +59,14 @@ margin: 0 auto;
 .header-menu-list {
     display: flex;
     gap: 40px;
+    padding: 54px;
+    
 }
+
 
 .header-menu-item {
 margin-right: 40px;
-padding-top: 24px;
- padding-bottom: 24px;
+padding: 24px 0;
 
 }
 
@@ -254,14 +256,11 @@ border-radius: 0px 0px 4px 4px;
 
 }
 
-.mark,
-.tom,
-.camila,
-.daniel {
-    padding: 32px 0;
+.team-info {
+    padding: 32px 0 32px;
 }
 
-.team-link {
+.team-list {
     display: flex;
     align-items: start;
     gap: 24px;
@@ -320,7 +319,7 @@ border-radius: 0px 0px 4px 4px;
 
 /*PORTFOLIO SECTION*/
 
-.Portfolio-sec {
+.Portfolio-section {
     background-color: #FFFFFF;
     padding-top: 120px;
     padding-bottom: 120px;
