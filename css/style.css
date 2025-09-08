@@ -36,6 +36,12 @@ a {
 margin: 0 auto; 
 }
 
+/*HEADER*/
+
+.header-container {
+    display: flex;
+    align-items: center;
+}
 
 .header-logo {
     font-family: "Raleway", sans-serif;
@@ -46,6 +52,7 @@ margin: 0 auto;
       text-transform: uppercase;
       color: #4d5ae5;
     margin-right: 76px;
+    
 
 }
 
@@ -56,7 +63,8 @@ margin: 0 auto;
 
 .header-menu-item {
 margin-right: 40px;
-padding: 24px 0;
+padding-top: 24px;
+ padding-bottom: 24px;
 
 }
 
@@ -209,7 +217,7 @@ margin: 0 auto;
         gap: 24px;
         }
 
-        .feature-strategy {
+        .feature-li {
             width: calc((100% – 72px)/4);
         }
 
@@ -220,6 +228,7 @@ font-size: 20px;
 line-height: 1.2;
 letter-spacing: 0.02em;
 color: #2E2F42;
+margin-bottom: 8px;
 }
 
 .feature-description {
@@ -235,18 +244,17 @@ color: #2E2F42;
 /*SECTION 3*/
 .team-section {
     background-color: #F4F4FD;
-    padding-bottom: 120px;
+    padding: 120px 0;
 }
 
 .team-item {
    background-color: #FFFFFF;
    margin: 0 auto;
    gap: 24px;
- 
-
-  
+border-radius: 0px 0px 4px 4px;
 
 }
+
 
 .team-link {
     display: flex;
@@ -266,7 +274,7 @@ color: #2E2F42;
         
         color: #2E2F42;
         padding-top: 120px;
-       padding-bottom: 72px;
+    margin-bottom: 72px;
 
 
 }
@@ -290,7 +298,7 @@ color: #2E2F42;
         text-align: center;
         color: #2E2F42;
         padding-top: 32px;
-        padding-bottom: 8px;
+    margin-bottom: 8px
 
 }
 
@@ -300,7 +308,7 @@ color: #2E2F42;
         font-size: 16px;
         line-height: 1.5;
         letter-spacing: 0.02em;
-        text-align: center;
+    text-align: center;
         color:#434455;
         padding-bottom: 32px;
 }
@@ -322,12 +330,15 @@ row-gap: 48px;
 
 .portfolio-item {
     width: calc((100% – 48px)/3);
-
+   
 }
 
-/*.portfolio-list li {
-    border: 1px solid #E7E9FC; 
-}*/
+.port-cont {
+    border: 1px solid #e7e9fc;
+    padding: 32px 16px;
+    border-top: none;
+}
+
 
 
 
@@ -353,6 +364,7 @@ row-gap: 48px;
         letter-spacing: 0.02em;
         color: #2E2F42;
         padding-top: 32px;
+        margin-bottom: 8px;
 }
 
 .portfolio-description {
